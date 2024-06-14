@@ -39,7 +39,7 @@ public class TaskTest {
         Todos todos = new Todos();
 
         todos.add(epic);
-        String query = "Молоко";
+        String query = "Яйца";
 
         Task[] expected = {epic};
         Task[] actual = todos.search(query);
@@ -74,7 +74,7 @@ public class TaskTest {
         Todos todos = new Todos();
 
         todos.add(meeting);
-        String query = "Выкатка 3й версии приложения";
+        String query = "Во вторник после обед";
 
         Task[] expected = {meeting};
         Task[] actual = todos.search(query);
